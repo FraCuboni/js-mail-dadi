@@ -12,7 +12,14 @@ emailSend.addEventListener("click",
         event.preventDefault();
 
         let emailValue = emailInput.value;
+        
+        // we got the email ;)
         console.log(emailValue);
+
+        // creo l'array per convalidare le email
+        const emailValid = ['giorgio@gmail.com', 'mariolino@gmail.com', 'pescepony@gmail.com','l@l.l'];
+        console.log(emailValid);
+        
 
     }
 
