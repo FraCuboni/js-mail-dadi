@@ -1,6 +1,5 @@
 // chiedi all'untente la mail e controlla sia nella lista di chi può accedere
 
-// creo lista mail che possono accedere
 
 //creo const input mail utente mail+bottone
 const emailInput = document.querySelector(".emailinput");
@@ -8,7 +7,7 @@ const emailSend = document.querySelector(".emailsend");
 
 // creo l'interazione di invio mail dopo il click del bottone
 emailSend.addEventListener("click",
-    function(event){
+    function(){
         event.preventDefault();
 
         let emailValue = emailInput.value;
@@ -24,6 +23,24 @@ emailSend.addEventListener("click",
     }
 
 
+)
+
+// crea un gioco che permette all'utente e al sistema di lanciare un dado e vedere se si ha vinto o perso
+
+// creo il button per lanciare il dado
+const diceTrow = document.querySelector(".dicetrow");
+
+diceTrow.addEventListener("click",
+    function(){
+
+        // generatore di numeri random da 1 a 6
+        let diceNumber = Math.floor((Math.random()* 6) + 1);
+        console.log(diceNumber);
+
+        // creo un
+
+
+    }
 )
 
 
