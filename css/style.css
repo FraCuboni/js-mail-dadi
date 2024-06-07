@@ -1,0 +1,30 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: "Roboto", sans-serif;
+}
+
+.emailbox,
+.dicebox{
+    width: 100%;
+    height: 50vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.emailbox{
+    background-color: lightskyblue;
+}
+
+.dicebox{
+    background-color: lightgreen;
+}
+
+.emailbox>*,
+.dicebox>*{
+    padding: 3px;
+}
+
